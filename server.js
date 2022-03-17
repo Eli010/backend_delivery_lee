@@ -46,7 +46,7 @@ app.set('port', port);
 */
 users(app,upload);
 
-server.listen(3000,'192.168.1.35' || 'localhost',function(){
+server.listen(3000,'192.168.2.24' || 'localhost',function(){
     console.log('Aplicacion en nodejs '+ port + ' inicido....')
 });
 
@@ -71,18 +71,3 @@ module.exports = {
 
 
 
-
-
-/* base del backend primer paso:
-const express = require('express');
-const app = express();
-const http = require('http');
-const server = http.createServer(app);
-
-const port = process.env.PORT || 3000;
-
-app.set('port', port);
-
-server.listen(3000,'192.168.1.34' || 'localhost',function(){
-    console.log('Aplicacion en nodejs '+ port + ' inicido....')
-});*/
