@@ -1,0 +1,30 @@
+{
+  "name": "backenddelivery_lee",
+  "version": "1.0.0",
+  "description": "backend delivery",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flutter",
+    "delivery",
+    "nodejs"
+  ],
+  "author": "Elí Pacombia",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/storage": "^5.18.2",
+    "bluebird": "^3.7.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.3",
+    "firebase-admin": "^10.0.2",
+    "http": "0.0.1-security",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "pg-promise": "^10.11.1"
+  }
+}
